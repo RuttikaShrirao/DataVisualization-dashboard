@@ -1,0 +1,133 @@
+.firstBlock{
+    padding-bottom: 2%;
+    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todaysSales{
+    padding: 1.8rem;
+border-radius: 20px;
+border: 1px solid #F8F9FA;
+background: #fff;
+box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+}
+
+.todaySaleHeading{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px
+}
+
+.SalesSummary{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 30px
+}
+
+.exportButton{
+    display: flex;
+    justify-content: space-between
+}
+
+.exportButton button{
+    padding: 1rem;
+    border-radius: 8px;
+border: 1px solid #C3D3E2;
+}
+
+.exportButton button span{
+    /* display: block; */
+    /* align-items: center; */
+text-align: center;
+margin-left: 10px;
+/* top: 70px; */
+}
+
+
+
+.todaySalesInfoBlock{
+    border-radius: 16px;
+    padding: 1rem;
+    font-family: poppins;
+}
+
+.todaySalesInfoBlock img{
+    padding-bottom: 15px;
+}
+
+
+/* graph reusable componenets */
+
+.graphs{
+height: 25rem;
+border-radius: 20px;
+border: 1px solid #F8F9FA;
+background: #fff;
+box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+padding: 1rem; 
+}
+
+
+.secondblock{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.graphblock{
+flex-grow: 1;
+flex-shrink: 1;
+}
+
+.blockheading{
+color: var(--Primary-Dark-Shade, #05004E);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; /* 160% */
+}
+
+.innerGraph{
+    height: 19rem;
+    padding: .5rem;
+}
+
+.bar{
+    background-color: #CDE7FF;
+    display: block;
+    height: .5rem;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.bar span{
+    height: .5rem;
+    float: left;
+    background-color: #0095FF;
+}
+
+.bar-range{
+    width: 45%;
+    animation: bar-range .7s;
+}
+
+@keyframes bar-range{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+.top-product-button{
+    text-align: right;
+}
+
+.top-product-button button{
+    padding: .7rem 1.2rem;
+    border-radius: 10px;
+}
